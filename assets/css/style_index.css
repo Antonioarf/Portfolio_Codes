@@ -1,0 +1,155 @@
+/*index*/
+
+.Thanos_index{
+  display: flex;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.Thanos_index_img{
+  border-radius: 3rem;
+  height: 6rem;
+  width: 6rem;
+}
+
+.title_index{
+  display: flex;
+  padding: 2rem;
+  height: 1rem;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.Perfil_index{
+  display: flex;
+  margin: 0.5rem;
+  justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.section-menu{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  line-height: 150%; 
+}
+
+.section-menu-item{
+  color: #6a7329 ;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.texto{
+ font-size: 1.3rem; 
+}
+
+.index-text{
+  padding: 1rem;
+}
+
+.sec{
+   display: none;
+}
+
+.Perfil_index{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem; 
+}
+
+.info{
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 150%;
+}
+
+
+@media (min-width: 415px){
+  .title_index{
+    justify-content: flex-start;
+    margin: 0.2rem;
+    padding: 1rem;
+    height: 1rem;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 0.2rem;
+    padding: 1rem;
+  }
+
+  .section-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 0.95rem;
+    margin-left: 2rem;
+  }
+
+  .index-text {  
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem;
+    height: 2rem;
+  }
+
+  .texto {
+    align-self: flex-start;
+    font-family: 'Sorts Mill Goudy', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+  }
+
+  .Perfil_index{
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.1rem;
+  }
+
+  .apresentacao{
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0.2rem;
+    padding: 1rem;
+    height: 1rem;
+    font-family: 'Sorts Mill Goudy', serif;
+  }
+
+  .Thanos_index_img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+  }
+
+  .section-menu-item{
+    color: #6a7329 ;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .info{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 150%;
+    margin: 0.2rem;
+    padding: 1rem;
+    height: 1rem;
+    font-family: 'Sorts Mill Goudy', serif;
+  }
+}
