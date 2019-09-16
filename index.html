@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang='pt-br'>
+<<<<<<< HEAD
 <head>
 	<title>Página principal</title>
 	<meta charset ="utf-8">
@@ -11,6 +12,19 @@
 	<link href="assets/css/style_index.css" rel="stylesheet">
 	<script href="assets/js/geral.js"></script>
 	<script href="assets/js/index.js"></script>
+=======
+	<head>
+		<title>Página principal</title>
+		<meta charset ="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet"> 
+		<link href="assets/css/reset.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/style_index.css" rel="stylesheet">
+		<script src="assets/js/geral.js"></script>
+		<script src="assets/js/index.js"></script>
+>>>>>>> cb7d5ae4e6b7566986afcf8f5e6baaa9c360ce33
 
 
 </head>
@@ -61,6 +75,7 @@
 			<div class="index-text">
 				<h2 class= "texto">Links para acessar as categorias:</h2>
 				
+<<<<<<< HEAD
 				<ul class = "section-menu">
 					<li> <a class = "section-menu-item" href="categoria.html">Digitais </a> </li>
 					<li> <a class = "section-menu-item" href="categoria.html">Matematica Avançada</a> </li>
@@ -68,6 +83,21 @@
 				</ul>
 			</div>
 		</section>
+=======
+				<div class="index-text">
+					<h2 class= "texto">Links para acessar as categorias:</h2>
+					
+					<ul class = "section-menu">
+						{{#each portfolio}}
+						<li> 
+							<a class = "section-menu-item" href="categoria.html">{{@key}}</a> 
+						</li>
+						
+						{{/each}}
+					</ul>
+				</div>
+			</section>
+>>>>>>> cb7d5ae4e6b7566986afcf8f5e6baaa9c360ce33
 
 		<section>
 			<div class="Perfil_index">
